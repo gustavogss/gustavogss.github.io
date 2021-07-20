@@ -56,7 +56,7 @@ header .logo span{
 
 header .navbar a{
 display: block;
-font-size: 2.5rem;
+font-size: 2rem;
 color: #ffffff;
 margin: 2rem 0;
 }
@@ -84,4 +84,24 @@ header .social a:hover{
     font-size: 3rem;
     cursor: pointer;
     display: none;
+}
+
+
+/*media queries*/
+@media(max-width:991px){
+    html{
+        font-size: 55%;       
+    }
+    body{
+        padding: 0;
+    }
+    #menu-bars{
+        display:initial;
+    }
+    header{
+        left:120%;
+    }
+    header.active{
+        left:0%;
+    }
 }
